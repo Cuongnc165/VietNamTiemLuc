@@ -254,6 +254,19 @@ export default function InternationalPage() {
                 quốc G7, G20 và láng giềng quan trọng. Năm 2025, nâng cấp quan
                 hệ ĐTCLTT với New Zealand, Indonesia, Singapore, Thái Lan.
                 <br />
+                <motion.div
+                  className="mt-6"
+                  initial={{ opacity: 0, y: 40 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                >
+                  <img
+                    src="/14nuoc.jpg"
+                    alt="Việt Nam"
+                    className="rounded-2xl shadow-lg w-full object-cover"
+                  />
+                </motion.div>
                 <br />
                 <strong>Thứ hai, Vị thế tại các Diễn đàn Đa phương:</strong>
                 <br />
