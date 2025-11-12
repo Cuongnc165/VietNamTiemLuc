@@ -8,11 +8,11 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: "Trang chủ", href: "/" },
-    { label: "Kinh tế", href: "/economic" },
-    { label: "Ngoại giao", href: "/international" },
-    { label: "Quốc phòng", href: "/military" },
-    { label: "Câu đố", href: "/quiz" },
+    { label: "BỐI CẢNH LỊCH SỬ", href: "/" },
+    { label: "TIỀM LỰC", href: "/economic" },
+    { label: "VỊ THẾ & UY TÍN", href: "/international" },
+    { label: "TỔNG KẾT", href: "/military" },
+    { label: "CÂU ĐỐ", href: "/quiz" },
   ];
 
   return (
