@@ -183,6 +183,11 @@ export default function InternationalPage() {
               <h2 className="text-4xl font-bold text-yellow-400">
                 PHẦN 2️⃣: Giai đoạn "Phá thế" và Tạo dựng nền tảng (1991-2007)
               </h2>
+              <img
+                src="/hanhtrinh.jpg"
+                alt="Việt Nam"
+                className="rounded-2xl shadow-lg w-full object-cover"
+              />
               <p className="leading-relaxed text-lg">
                 Từ tình thế bị cô lập đó, Đảng ta đã có một bước chuyển chiến
                 lược. Bắt đầu từ tư duy "thêm bạn bớt thù" của Nghị quyết 13 Bộ
@@ -230,16 +235,19 @@ export default function InternationalPage() {
               <h2 className="text-4xl font-bold text-emerald-400">
                 PHẦN 3️⃣: Giai đoạn "Khẳng định vị thế" (2007 - Nay)
               </h2>
+
               <p className="leading-relaxed text-lg">
                 Nếu giai đoạn 2 là "tham gia", thì giai đoạn 3 (từ 2007 đến nay,
                 và đặc biệt là đến năm 2025) là giai đoạn Việt Nam "chủ động
                 đóng góp", "kiến tạo luật chơi" và khẳng định vị thế "đối tác
                 tin cậy".
-                <br />
-                <br />
+              </p>
+
+              <p className="leading-relaxed text-lg">
                 Điều này được thể hiện rõ qua 4 trụ cột vị thế sau:
-                <br />
-                <br />
+              </p>
+
+              <p className="leading-relaxed text-lg">
                 <strong>Thứ nhất, Vị thế trong quan hệ Song phương:</strong>
                 <br />
                 Đây là minh chứng phi thường nhất. Tính đến tháng 11 năm 2025,
@@ -253,21 +261,17 @@ export default function InternationalPage() {
                 Hai là, tạo ra mạng lưới quan hệ sâu rộng với tất cả các cường
                 quốc G7, G20 và láng giềng quan trọng. Năm 2025, nâng cấp quan
                 hệ ĐTCLTT với New Zealand, Indonesia, Singapore, Thái Lan.
-                <br />
-                <motion.div
-                  className="mt-6"
-                  initial={{ opacity: 0, y: 40 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.2 }}
-                  viewport={{ once: true, amount: 0.3 }}
-                >
-                  <img
-                    src="/14nuoc.jpg"
-                    alt="Việt Nam"
-                    className="rounded-2xl shadow-lg w-full object-cover"
-                  />
-                </motion.div>
-                <br />
+              </p>
+
+              {/* ✅ Đưa ảnh ra ngoài p */}
+
+              <img
+                src="/14nuoc.jpg"
+                alt="Việt Nam"
+                className="rounded-2xl shadow-lg w-full object-cover"
+              />
+
+              <p className="leading-relaxed text-lg">
                 <strong>Thứ hai, Vị thế tại các Diễn đàn Đa phương:</strong>
                 <br />
                 Nếu thập niên 80 thất bại tại LHQ, giờ đây vị thế được đo bằng
@@ -285,15 +289,22 @@ export default function InternationalPage() {
                 <br />
                 Tại ASEAN, vai trò "trụ cột", Chủ tịch ASEAN 2020 dẫn dắt khối
                 vượt đại dịch, ký RCEP.
-                <br />
-                <br />
+              </p>
+              <img
+                src="/vithe.jpg"
+                alt="Việt Nam"
+                className="rounded-2xl shadow-lg w-full object-cover"
+              />
+
+              <p className="leading-relaxed text-lg">
                 <strong>Thứ ba, Vị thế Kinh tế:</strong>
                 <br />
                 Chủ động tham gia đàm phán và kiến tạo FTA thế hệ mới, tiêu
                 chuẩn cao như CPTPP và EVFTA. Vị thế kinh tế vững chắc, là mắt
                 xích quan trọng trong chuỗi cung ứng toàn cầu.
-                <br />
-                <br />
+              </p>
+
+              <p className="leading-relaxed text-lg">
                 <strong>Thứ tư, Vị thế An ninh:</strong>
                 <br />
                 Từ quốc gia bị chiến tranh tàn phá, Việt Nam trở thành thành
